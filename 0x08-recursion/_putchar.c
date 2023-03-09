@@ -8,5 +8,5 @@
 
 int _putchar(char c)
 {
-	return write(STD0UT_FILENO, &c, 1);
+	return (write(1, &c, 1));
 }
